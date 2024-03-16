@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">easEquations</string>
     <string name="back">⟨</string>
+    <string name="shapes2dTitle">Shapes 2D</string>
 </resources>

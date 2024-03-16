@@ -59,12 +59,12 @@ class MainActivity : AppCompatActivity() {
                 homePage.visibility = View.VISIBLE
             }
             R.id.back_basic_button -> {
-                val page = findViewById<LinearLayout>(R.id.basic_functions_page)
+                val page = findViewById<LinearLayout>(R.id.basic_insert)
                 page.visibility = View.GONE
                 homePage.visibility = View.VISIBLE
             }
             R.id.back_dice_button -> {
-                val page = findViewById<LinearLayout>(R.id.dice_roll_page)
+                val page = findViewById<LinearLayout>(R.id.dice_insert)
                 page.visibility = View.GONE
                 homePage.visibility = View.VISIBLE
             }
@@ -83,13 +83,13 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 2 -> {
-                    val page = activity.findViewById<LinearLayout>(R.id.basic_functions_page)
+                    val page = activity.findViewById<LinearLayout>(R.id.basic_insert)
                     page.visibility = View.VISIBLE
                     homePage.visibility = View.GONE
                 }
 
                 3 -> {
-                    val page = activity.findViewById<LinearLayout>(R.id.dice_roll_page)
+                    val page = activity.findViewById<LinearLayout>(R.id.dice_insert)
                     page.visibility = View.VISIBLE
                     homePage.visibility = View.GONE
                 }
